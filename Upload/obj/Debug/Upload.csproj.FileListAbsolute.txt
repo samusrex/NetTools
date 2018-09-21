@@ -69,6 +69,13 @@ C:\Users\hmendonca\Documents\Git\Upload\Upload\bin\pt-br\System.Web.Razor.resour
 C:\Users\hmendonca\Documents\Git\Upload\Upload\bin\pt-br\System.Web.WebPages.resources.dll
 C:\Users\hmendonca\Documents\Git\Upload\Upload\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
 C:\Users\hmendonca\Documents\Git\Upload\Upload\bin\pt-br\System.Web.WebPages.Razor.resources.dll
-C:\Users\hmendonca\Documents\Git\Upload\Upload\obj\Debug\Upload.csprojResolveAssemblyReference.cache
 C:\Users\hmendonca\Documents\Git\Upload\Upload\obj\Debug\Upload.dll
 C:\Users\hmendonca\Documents\Git\Upload\Upload\obj\Debug\Upload.pdb
+C:\Users\hmendonca\Documents\Git\Upload\Upload\bin\EntityFramework.dll
+C:\Users\hmendonca\Documents\Git\Upload\Upload\bin\EntityFramework.SqlServer.dll
+C:\Users\hmendonca\Documents\Git\Upload\Upload\bin\EntityFramework.xml
+C:\Users\hmendonca\Documents\Git\Upload\Upload\bin\EntityFramework.SqlServer.xml
+C:\Users\hmendonca\Documents\Git\Upload\Upload\obj\Debug\Upload.Migrations.InitialCreate.resources
+C:\Users\hmendonca\Documents\Git\Upload\Upload\obj\Debug\Upload.csproj.GenerateResource.Cache
+C:\Users\hmendonca\Documents\Git\Upload\Upload\obj\Debug\Upload.Migrations.super.resources
+C:\Users\hmendonca\Documents\Git\Upload\Upload\obj\Debug\Upload.csprojResolveAssemblyReference.cache

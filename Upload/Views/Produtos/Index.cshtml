@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Upload.Models.Produto>
+
+@{
+    ViewBag.Title = "Index";
+
+
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quantidade)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+
+
+        <tr>
+
+            <td>
+                @if(item.Imagem!=null){
+                    <a href="@Url.Content(item.Imagem)">
+                        <img id="Imagem" width="30" height="30" src="@Url.Content(item.Imagem)" alt="@item.Nome" style="height:50px;width:100px;">
+                    </a>
+
+
+                }
+               
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantidade)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ProdutoId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ProdutoId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ProdutoId })
+            </td>
+        </tr>
+    }
+
+</table>
