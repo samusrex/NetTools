@@ -61,7 +61,7 @@ namespace Upload.Controllers
                                                    Path.GetFileName(file.FileName));
                         file.SaveAs(path);
 
-                        produto.Imagem = path ;
+                        produto.Imagem = "Public/"+file.FileName ;
                         
                         ViewBag.Message = "File uploaded successfully";
                     }

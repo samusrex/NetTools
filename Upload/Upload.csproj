@@ -160,6 +160,10 @@
     <Compile Include="Migrations\201809211908479_super.Designer.cs">
       <DependentUpon>201809211908479_super.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809241324230_inicial.cs" />
+    <Compile Include="Migrations\201809241324230_inicial.Designer.cs">
+      <DependentUpon>201809241324230_inicial.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Produto.cs" />
     <Compile Include="Models\UploadContext.cs" />
